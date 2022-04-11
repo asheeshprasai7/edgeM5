@@ -1,0 +1,140 @@
+.toggle-button {
+  display: flex;
+}
+
+.navbar-links {
+  width: 100%;
+  display: none;
+}
+
+.navbar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navbar-links ul {
+  flex-direction: column;
+  width: 100%;
+}
+
+.navbar-links li {
+  text-align: center;
+}
+
+.navbar-links li a {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-links.active {
+  display: flex;
+}
+
+.services .container-xl {
+  flex-direction: column;
+}
+
+.info {
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 1rem auto;
+}
+
+.info .image {
+  margin: 1rem;
+}
+
+.facilities .facilities-content {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .showcase {
+  margin: 0 auto;
+} */
+
+.showcase .facilities-header h1 {
+  min-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.center-image-container {
+  max-width: 600px;
+}
+
+.center-image-container img {
+  height: 60%;
+  width: 100%;
+}
+
+.services-showcase .info {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 2rem;
+}
+
+.services-showcase .info p {
+  font-size: 1.5rem;
+}
+
+.services-showcase .services-listing ul {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+.services-showcase .services-listing ul li {
+  padding: 1rem;
+}
+
+/* .digital-services {
+  width: 100%;
+} */
+
+.digital-services .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.digital-services .info-text {
+  max-width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.digital-services .info .info-text h1 {
+  text-align: center;
+}
+
+.digital-services .info-text p {
+  font-size: 1.5rem;
+}
+
+
+
+.digital-services .info .services-listing ul li,
+.digital-services .info .services-listing ul li i {
+  display: inline-block;
+}
+
+.reviews {
+  grid-template-areas:
+    "head"
+    "card-1"
+    "card-2"
+    "card-3"
+    "card-5";
+}
